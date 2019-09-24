@@ -1,0 +1,447 @@
+/*Body Part Start*/
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+button:focus{
+    outline-color: #97D1EB !important;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Body Part End*/
+
+/* Header Part Start*/
+
+header{
+    background-color: #FFFFFF;
+    padding: 5px 0;
+   
+    
+}
+
+
+.menu ul li a{
+    font-family: 'Raleway', sans-serif;
+    font-weight : 800;
+    font-size: 18px;    
+    color: #000000 !important;
+    padding: 0 20px !important;  
+    
+    
+    
+}
+
+.menu ul li:hover{
+    border-bottom: 2px solid #F2F2F2 ;   
+
+ 
+}
+
+.menu ul li a:hover{
+    color : #97D1EB !important;
+     
+}
+
+
+
+.c_search{
+    left: -150px !important;
+}
+
+.c_search form {
+    width: 300px;
+}
+
+.c_search form input{
+    margin: 0 5px;
+}
+
+.c_search form button{
+    background-color: #F2F2F2 !important;
+}
+
+.c_search form button:hover{
+    background-color: #97D1EB !important;
+    color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+/*Header Part End*/
+
+/* .banner{
+    background-image: url();
+    -webkit-background-size : cover;
+    background-size : cover;
+    background-repeat: no-repeat;
+    background-position : center;
+} */
+
+.banner-content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.banner_button{
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 10px;
+    background-color: #F2F2F2;
+    color: black;
+}
+.overlay{
+    background: #97D1EB;
+}
+
+.c_car_parts{
+    position: relative;   
+    margin-top: 120px;
+}
+
+
+.c_car_text{
+    position: absolute;
+    top: 184px;
+    left: 190px;
+    z-index: 2;
+    width: 330px;
+    font-size: 40px;
+}
+
+.c_car_text h1{
+    font-weight: 800;
+    font-size: 40px;
+
+}
+
+
+.box{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: 800 !important;
+    border: 1px solid white;
+    background-color: #97D1EB;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    padding-top: 22px;
+    top: 183px;
+    left: 25px;
+}
+
+
+/* About Us section start */
+
+.about{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
+.c_about_us_text{
+    padding-left: 30px;
+}
+
+.about_us_text_content h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+
+.about_us_text_content p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    margin-top: 40px;
+    font-size: 16px;
+
+}
+
+.about_us_image{
+    position: relative;
+}
+
+.about_us_image_text{
+ 
+
+}
+
+
+.box_2{
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    left: 110px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* About Us section end */
+
+/* Roadmap section start */
+
+.roadmap{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.c_roadmap_first{
+    background-image: url(../images/roadmap_1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.c_roadmap_second{
+    background-image: url(../images/roadmap_2.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.c_roadmap_third{
+    background-image: url(../images/roadmap_3.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.c_roadmap_forth{
+    background-image: url(../images/roadmap_4.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+
+
+.c_roadmap_single h2{
+    margin-top: 60%;
+    font-size:40px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position : relative;
+}
+
+/* Hover Start */
+
+.c_roadmap_single h2::after{
+   content: "";
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 90%;
+   height : 2px;
+   background: currentColor;
+
+   transform: scaleX(0);
+   transform-origin: right;
+   transition: transform 250ms ease-in;
+}
+
+.c_roadmap_single h2:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+
+}
+
+/* Hover End */
+
+/* Roadmap section End */
+
+/* work section start */
+
+.work{
+    background-image: url(../images/work_bg.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height : 250px;
+    
+}
+
+
+.c_work{
+    padding: 103px 0;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.fa-drafting-compass{
+    color : #97D1EB;
+}
+
+/* work section end */
+
+.brand{
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+
+.cbrand{
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+
+.team-brand{
+    margin-bottom: 80px;
+}
+
+/* Horizontal Line Strat*/
+
+.hlinegap{
+    margin: 100px;
+}
+
+.hline{
+    min-height: 3px;
+    border-bottom: 2px solid #97D1EB;
+}
+
+.htext{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+/* Horizontal Line End*/
+
+/* Gallery Start */
+
+.gbutton{
+    color: #9EA4A9;
+    border: 1px solid #9EA4A9;
+    position:relative;
+}
+
+.gbutton:hover{
+    background-color: #97D1EB;
+    border: 1px solid #97D1EB;
+}
+
+/* Gallery End */
+
+/*Blog Start*/
+
+.padd_top{
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+/*Blog End*/
+
+/* Team Start  */
+
+.fa-facebook:hover{
+    color: #4267B2;
+}
+
+.fa-twitter:hover{
+    color: #1DA1F2;
+}
+
+.fa-skype:hover{
+    color: #00ADEB;
+}
+
+.fa-google:hover{
+    color: #DC4E41;
+}
+
+/* Team Ens  */
+
+/* Contact Form Start */
+
+/* .contact{
+    background-image: url('../images/contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.contact_pic{
+    background-image: url('../images/contact.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.contact_button{
+    margin-left: 14px;
+    background-color: #D5D8E6;
+    font-family: 'Montserrat', sans-serif;
+    color : #2F2529;
+    border: 1px solid #D5D8E6;
+}
+
+.contact_button:hover {
+    margin-left: 14px;
+    background-color: #97D1EB;
+    color : white;
+}
+
+.contact_img img{
+    max-width: 230px;
+}
+
+.form_style{
+    border: 10px solid #97D1EB;
+    padding: 40px 70px;
+    margin: 40px 0;
+    margin-right: -100px;
+}
+
+.form-group label{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Contact Form End */
+
+
+/*Footer Text*/
+
+.footer{
+    background-color: #666666;
+}
+
+.footer_text{
+    color:#8D9093 !important;
+    opacity : 1;
+}
+
+/*Footer Text*/
+
+
+

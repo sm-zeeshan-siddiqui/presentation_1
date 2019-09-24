@@ -1,0 +1,210 @@
+@media (max-width: 575.98px) {
+    /* Header Section Start */
+    
+     .menu ul li a{  
+        text-align: right !important;       
+        font-weight: 700;
+        font-size: 16px;
+        color: #010101 !important;
+        padding: 5px 0px !important;
+       
+    }
+
+    .menu ul li:hover {
+        border-bottom: none;
+    }
+
+    /* Header Section End*/
+
+    .about_us_text_content h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .about_us_text_content p{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 30px;
+        margin-top: 30px;
+        font-size : 12px;
+    
+    }
+
+    .brand {
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .cbrand{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .about{
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    .c_roadmap_single h2 {
+        margin-top: 200px;
+        font-size: 14px;
+        font-weight: 800;;     
+        
+    }
+
+    .htext {
+        font-size: 16px !important;
+        font-weight: 800 !important;;
+    }
+
+    .c_work {
+        padding: 103px 0;
+        font-size: 16px;
+        font-weight: 800;
+    }
+    
+    .mar_top{
+        margin-top: 20px;
+    }
+
+    .form-group label {
+        font-size: 14px;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .form_style{
+        padding : 0 !important;
+        margin-right: 0px;
+    }
+
+    .contact_button{
+        padding: 5px 5px;
+        font-size: small;
+        margin-bottom: 15px;
+    }
+
+    .footer_img{
+        width: 80px;
+    }
+   
+}
+
+@media screen and (max-width: 767.97px ) and (min-width: 576px) {
+       /* Header Section Start */
+    .menu ul li a{  
+        text-align: right !important;       
+        font-weight: 700;
+        font-size: 18px;
+        color: #010101 !important;
+        padding: 5px 0px !important;
+       
+    }
+
+    .menu ul li:hover {
+        border-bottom: none;
+    }
+  
+        /* Header Section End*/
+
+    .about_us_text_content h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (max-width:991.98px ) and (min-width:768px ) {
+       /* Header Section Start */
+    .menu ul li a{  
+        text-align: right !important;       
+        font-weight: 700;
+        font-size: 18px;
+        color: #010101 !important;
+        padding: 5px 0px !important;
+       
+    }
+    
+    .menu ul li:hover {
+        border-bottom: none;
+    }
+
+
+    .c_car_parts {
+        position: relative;
+        margin-top: 0px;
+    }
+
+        /* Header Section End*/
+
+    
+    /* How we work start */
+
+    .box_2 {
+        display: inline-block;
+        position: absolute;
+        top: 148px;
+        left: 17px;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .about_us_text_content h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .c_roadmap_single h2 {
+        margin-top: 200px;
+        font-size: 30px;
+        font-weight: 800;     
+        
+    }
+
+
+    /* How we work end */
+
+    .form_style{
+        padding : 0 !important;
+        margin-right: 0px;
+    }
+
+    
+
+
+}
+
+@media screen and (max-width:1199.98px ) and (min-width: 992px) {
+    /* Header Section Start */
+    
+    .c_search {
+        left: -250px !important;
+    }
+    
+    /* Header Section End*/   
+
+    /* How we work start */
+
+    .box_2 {
+        display: inline-block;
+        position: absolute;
+        top: 150px;
+        left: 30px;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .about_us_text_content h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    /* How we work end */
+
+    
+    
+}
+
+
